@@ -1,0 +1,15 @@
+{
+  "name": "NodeJsTestAppVS",
+  "version": "1.0.0",
+  "description": "NodeJsTestAppVS",
+  "main": "app.js",
+  "author": {
+    "name": "Anjali",
+    "email": "anjali.csoft@gmail.com"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "stylus": "*"
+  }
+}

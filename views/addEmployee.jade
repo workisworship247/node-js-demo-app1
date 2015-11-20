@@ -1,0 +1,47 @@
+﻿extends layout
+
+block content
+    .row
+        .col-md-12
+            .pill-left
+                h2 Add New Employee Details
+            .pull-right
+                a.btn.btn-primary(href="/listEmployees") Go Back to List of Employees
+            br
+            br
+            form(action='/addEmployee', method='post')
+                table.table                
+                    tr
+                        th User Id
+                        td 
+                            input#txtUserId(type='text', name='UserId')
+                    tr
+                        th Job Title
+                        td 
+                            input#txtJobTitle(type='text', name='JobTitle')
+                    tr
+                        th Name
+                        td 
+                            input#txtFirstName(type='text', name='FirstName') 
+                            &nbsp;&nbsp;
+                            input#txtLastName(type='text', name='LastName')
+                    tr
+                        th Employee Code
+                        td 
+                            input#txtEmployeeCode(type='text', name='EmployeeCode')
+                    tr
+                        th Region
+                        td 
+                            input#txtRegion(type='text', name='Region')
+                    tr
+                        th Phone
+                        td 
+                            input#txtPhone(type='text', name='Phone')
+                    tr
+                        th Email
+                        td 
+                            input#txtEmail(type='text', name='Email')
+                    tr
+                        td(colspan='2')
+                            input#btnSubmit(type='submit').btn.btn-success
+                
