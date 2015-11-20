@@ -27,8 +27,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //set locals
 app.locals.websiteTitle = "Demo NODE JS website";
-var data = require('./Employees.json');
-app.locals.appdata = data;
+//var data = require('./Employees.json');
+//app.locals.appdata = data;
 
 
 // development only
